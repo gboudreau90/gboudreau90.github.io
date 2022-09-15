@@ -1,0 +1,58 @@
+body{
+    background-image: url("webpagesprites/myBackground.png");
+    background-size: cover;
+    color:azure;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+#about-intro {
+    font-size: 18px;
+    padding: 2px;
+    }
+
+p{
+    font-size: 12px;
+    }
+
+h1{
+    font-size: 35px;
+    padding: 2px;
+    margin-left: -300px;
+    text-align: center;
+    }
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 1px;
+    }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+
+a:visited {
+    Color:limegreen;
+    }
+
+#infoimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+#imgtext {
+    text-align: center;
+    padding: 6px;
+    }
+
+#homeredirect {
+    margin-left: 230px;
+    text-align: center;
+    }
+
+th {
+    width: 195px;
+}

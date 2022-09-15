@@ -5,52 +5,72 @@
         <title>Grey's Java Scripts Page</title>
     </head>
     <body>
-        <style>
-            body{
-                background-image: url("myBackground.png");
-                background-size: cover;
-            }
-            p {
-                font-size: 20px;
-            }
-            h1{
-                font-size: 40px;
-            }
-        </style>    
-    <img src="myBanner.jpg">
-        
-    <h1>About Me</h1>
-    
-    <p>My name is Greyson Boudreau and I am a junior accounting major. 
-        <br>Some of my hobbies include playing video games, fishing, and drumming. 
-        <br>I love computers and learning about how they word via both their software and hardware!</p>
-    
-    <table>
+  
+        <link rel="stylesheet" href="styles-about.css">
+
+    <img id="banner"
+    src="webpagesprites/myBanner.jpg">
+
+  <table>
         <thead>
             <tr>
                 <th>
                     <a href="https://gboudreau90.github.io/index.html">
-                    <img src="home.png"></a>
+                    <img src="webpagesprites/home.png"></a>
                 </th>
                 <th>
                     <a href="https://gboudreau90.github.io/javascripts.html">
-                    <img src="javascripts.png"></a>
+                    <img src="webpagesprites/javascripts.png"></a>
                 </th>
                 <th>
                     <a href="https://gboudreau90.github.io/about.html">
-                    <img src="about.png"></a>
+                    <img src="webpagesprites/about.png"></a>
                 </th>
                 <th>
-                    <a href="https://"gboudreau90.github.io/apps.html">
-                    <img src="apps.png"></a>
+                    <a href="https://gboudreau90.github.io/apps.html">
+                    <img src="webpagesprites/apps.png"></a>
                 </th>
             </tr>
         </thead>
         </table>
-        
-        
-    <br><br>    
-    Back to <a href="index.html">home page.</a>
+
+    <h1>About Me</h1>
+
+    <p id="about-intro">My name is Greyson Boudreau and I am a junior accounting major. 
+        <br>Some of my hobbies include playing video games, fishing, and drumming. 
+        <br>I love computers and learning about how they work via both their software and hardware!</p>
+
+        <br>
+        <div class="row">
+            <div class="column">
+              <img id="infoimg"
+              src="images/myPCimg.jpg" width="140px" height="160px">
+              <p id="imgtext">My personally built PC, 
+                <br> with a NVIDIA GTX 3070,
+                <br> Intel i7-9700K, and 32 GB ram</p>
+            </div>
+            <div class="column">
+              <img id="infoimg"
+              src="images/shadow.JPG" width="140px" height="160px">
+              <p id="imgtext">My dog Shadow</p>
+            </div>
+          </div>    
+
+        <div class="row">
+            <div class="column">
+              <img id="infoimg"
+              src="images/meandbass.JPG" width="160px" height="190px">
+              <p id="imgtext">Caught a 12" bass</p>
+            </div>
+            <div class="column">
+              <img id="infoimg"
+              src="images/band.jpg" width="220px" height="170px">
+              <p id="imgtext">Drumming with the Crossmen Drum & Bugle Corps</p>
+            </div>
+          </div>
+
+        <br>   
+    <a id="homeredirect">Back to <a href="index.html">home page</a></a>
         
     </body>
 </html>

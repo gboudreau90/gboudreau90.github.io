@@ -1,0 +1,22 @@
+body{
+    background-image: url("webpagesprites/myBackground.png");
+    background-size: cover;
+    color:azure;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+p {
+    font-size: 20px;
+    }
+
+h1{
+    font-size: 40px;
+    }
+
+a:visited {
+    Color:limegreen;
+    }
+
+    th {
+        width: 195px;
+    }
